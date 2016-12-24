@@ -1,0 +1,171 @@
+@import 'bootstrap';
+@import 'bulma';
+
+// .container{
+//   overflow: hidden;
+// }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-top:10px;
+  padding-bottom: 50px;
+
+  a{text-decoration: none;
+    color:black;
+  }
+    .nav-right{
+      a{
+        font-family: 'Raleway', sans-serif;
+        font-weight: 200;
+        padding: 20px;
+      }
+        a:hover, a:focus {
+          text-decoration: none;
+          color: #BFDBE8;
+          padding: 35px;
+        }
+    }
+    .nav-top-left{
+      font-family: 'Raleway', sans-serif;
+      font-weight:300;
+      font-size: 33px;
+        a:hover {
+          text-decoration: none;
+          color:#BFDBE8;
+        }
+        a:focus {
+         text-decoration: none;
+         color:black;
+       }
+    }
+}
+
+//about
+#snehel-patz {
+  height: 650px;
+  margin:auto;
+}
+
+//contact
+#contact {
+  display: flex;
+  justify-content: center;
+
+  a {
+    text-decoration: none;
+    color: #BFDBE8;
+    padding: 10px;
+
+  }
+}
+
+#in-touch{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 70px;
+  text-align: center;
+  font-weight:300;
+  padding:20px;
+  color: black;
+}
+
+//resume
+
+#resume {
+  font-size: 20px;
+  padding: 0px 0px 25px 0px;
+}
+
+.row{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+  width: 970px;
+
+  .resume-title{
+    color: #BFDBE8;
+    font-weight: 600;
+    margin: 0 0 20px 0;
+    border-bottom: 1px solid #C5C4C3;
+
+
+  }
+
+  ul#education{
+    list-style: none;
+
+    li{
+
+      // font-style: italic;
+    }
+  }
+
+  div.col-sm-9{
+    padding-left: 0px;
+  }
+  div.work-list{
+    display: flex;
+    justify-content:space-between;
+    font-weight: bold;
+  }
+  div.position{
+    padding-bottom: 10px;
+
+  }
+  ul {
+    list-style:square;
+  }
+}
+
+//main content
+
+// .content-wrapper {
+//
+//   .nav-left{
+//     list-style: none;
+//     padding-left: 0px;
+//     a{
+//       text-decoration: none;
+//       color:black;
+//     }
+//     a:hover {
+//       text-decoration: none;
+//       color:#BFDBE8;
+//     }
+//   }
+//   display: flex;
+//   align-content: space-around;
+// }
+
+//Projects
+
+.media-object {
+  height:245px;
+  width: 395px;
+}
+
+.media-heading{
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  a{
+    color:black;
+  }
+}
+// header.media-heading:hover{
+//   color: #BFDBE8;
+// }
+
+.media-heading:hover{
+  a{
+    color: #BFDBE8;
+  text-decoration: none;
+  }
+}
+
+.blurb{
+  font-family: 'Raleway', sans-serif;
+
+}

@@ -1,0 +1,8 @@
+function ResumeController () {
+
+
+
+
+}
+
+export { ResumeController };
