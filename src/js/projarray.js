@@ -10,7 +10,7 @@ const allProjects = [
     github: 'https://github.com/aliensfinalproject/',
 		thumb: './images/ironstack.png',
 		images: ['images/bst-home.jpg', 'images/bst-catalog.jpg', 'images/bst-m.jpg'],
-		tech: ['AngularJS', 'MomentJS', 'Bulma', 'jQuery']
+		tech: "AngularJS, Moment, Bulma, jQuery"
 	},
 
 	// InstaShare
@@ -23,7 +23,7 @@ const allProjects = [
 		ghLink: 'https://github.com/snehelpatel/hackathon',
 		thumb: './images/instashare.png',
 		images: ['images/fly-details-m.jpg', 'images/fly-grid-d.jpg', 'images/fly-river-d.jpg'],
-		tech: ['AngularJS', 'Bulma', 'jQuery']
+		tech: "AngularJS, Bulma, jQuery"
 	}
 
 ]

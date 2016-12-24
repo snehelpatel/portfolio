@@ -17,6 +17,7 @@ import { routerConfig } from "./routes";
 angular
 .module('app', ['ui.router'])
 .config(routerConfig)
+.run ()
 .controller('HomeController', HomeController)
 .controller('AboutController', AboutController)
 .controller('ProjectsController', ProjectsController)

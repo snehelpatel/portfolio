@@ -12,4 +12,6 @@
 
 
 <ul class="main-content" ui-view>
+  <div infinite-scroll='loadMore()' infinite-scroll-distance='2'>
+    <div ng-repeat="state in states">{{home.state}}</div>
 </ul>
