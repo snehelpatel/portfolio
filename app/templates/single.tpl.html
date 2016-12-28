@@ -1,36 +1,25 @@
 
-<!--
-<div class="modal is-active">
-  <div class="modal-background"></div>
-  <div class="modal-card">
-    <header class="modal-card-head">
-      <p class="modal-card-title">Modal title</p>
-      <button class="delete"></button>
-    </header>
-    <section class="modal-card-body">
-something show up
-    </section>
-    <footer class="modal-card-foot">
-      <a class="button is-primary">Save changes</a>
-      <a class="button">Cancel</a>
-    </footer>
-  </div>
-</div> -->
+
+
+
+
 
 <div class="modal is-active">
   <div class="modal-background"></div>
   <div class="modal-content">
-    <ul ng-repeat= "item in single.indiv">
-      <li>{{item.title}}</li>
-      <li>{{item.blurb}}</li>
-      <li><a href="{{item.deployed}}">Site</a></li>
-      <li><a href="{{item.github}}">Github</a></li>
-      <li>{{item.images}}</li>
+    <div class= "carousel">
+      <div class="slider">
 
-    </ul>
-    <ul ng-repeat= "item in single.indiv">
-      <li>{{item.tec}}</li>
-    </ul>
+        <div class="btnLeft"></div><!--end btnLeft-->
+        <ul ng-repeat= "image in single.images">
+          <li><img src="{{image}}"></li>
+        </ul>
+        <div class="btnRight"></div><!--end btnRight-->
+
+      </div>
+    </div>
+
+
 
 
   </div>

@@ -13,7 +13,7 @@ function routerConfig ($stateProvider, $urlRouterProvider, $qProvider) {
   .state('root.resume', {
     url: '/resume',
     templateUrl: 'templates/resume.tpl.html',
-    controller: 'ResumeController as resume'
+    // controller: 'ResumeController as resume'
   })
   .state('root.projects', {
     url: '/projects',
@@ -30,7 +30,7 @@ function routerConfig ($stateProvider, $urlRouterProvider, $qProvider) {
     templateUrl: 'templates/contact.tpl.html',
     controller: 'ContactController as contact'
   })
-  $urlRouterProvider.otherwise('/about');
+  $urlRouterProvider.otherwise('/projects');
   $qProvider.errorOnUnhandledRejections(false);
 };
 
