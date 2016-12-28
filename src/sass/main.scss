@@ -51,6 +51,18 @@ nav {
   font-stretch: expanded;
 }
 
+#contact-about{
+  display: flex;
+  justify-content: flex-start;;
+
+  a {
+    text-decoration: none;
+    color: #BFDBE8;
+    padding: 5px;
+  }
+
+}
+
 .outer {
 width: 900px;
 height: 555px;
