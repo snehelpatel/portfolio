@@ -28,11 +28,11 @@ const allProjects = [
 	{
 		link: 'kji',
 		title: 'KJI Public House',
-		blurb: "KJI Public House is a mockup of a restaurant website created by a team of three. We implimented much of the vanilla Javascript learned in prior weeks, newly-learned Ajax calls, and ",
+		blurb: "KJI Public House is a mockup of a restaurant website created by a team of three. We implimented previously learned vanilla Javascript and jQuery Ajax calls and newly-learned Git workflow. ",
 		deployed: 'https://tiy-barryhoward-hackathon.surge.sh/',
 		github: 'http://tiy-snehelpatel-team4restaurantpage.surge.sh/',
 		thumb: './images/kjipublichouse.png',
-		images: ['./images/addShare.png','./images/singleShare.png'],
+		images: [],
 		tools: "jQuery, Lodash"
 	}
 
