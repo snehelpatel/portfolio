@@ -1,6 +1,5 @@
 
-
-
+<div id="scroll-about"></div>
   <div class="outer box">
     <h2 class=" box title is-2">ABOUT ME</h2>
     <div class="columns">
@@ -10,16 +9,13 @@
       </figure>
     </div>
     <div class="column box is-half about">
-        <p>I'm Snehel, a frontend developer in Atlanta, Georgia, who aims to create intuitive, streamlined, and visually pleasing apps.</p>
-          <p>In a prior life I went to law school, wrote grants as an AmeriCorps VISTA, taught disinterested farmer's market crowds about food insecurity, and organized dances for socially isolated senior citizens.
-            <p>My current interests include anxiously watching Atlanta develop, knitting greyhound pajamas, practicing mindfulness, and writing cleaner code.</p>
-            <p>Come say hi! </p>
+      POOP
             <div id="contact-about">
               <a href= "https://github.com/snehelpatel/"><i class="fa fa-github-alt fa-2x" class= "github" aria-hidden="true"> </i>
               </a>
               <a href= "mailto:snehelpatel92@gmail.com"><i class="fa fa-envelope fa-2x" id= "email" aria-hidden="true"></i>
               </a>
-              <a href= "https://www.linkedin.com/in/snehel-patel-650b738a"><i class="fa fa-linkedin fa-2x" id= "linkedin" aria-hidden="true"></i>
+              <a href= "https://www.linkedin.com/in/snehel-patel"><i class="fa fa-linkedin fa-2x" id= "linkedin" aria-hidden="true"></i>
               </a>
               <a href= "https://twitter.com/SnehelPatel"><i class="fa fa-twitter fa-2x" aria-hidden="true" id= "twitter"></i>
               </a>
@@ -27,3 +23,121 @@
       </div>
     </div>
   </div>
+
+<div id= "projects" >
+    <div class="media" ng-repeat= "all in home.all">
+    <div class="media-left media-middle">
+        <img class= "media-object" src="{{all.thumb}}">
+    </div>
+    <div class="media-body">
+
+        <!-- <header class="media-heading"><a ui-sref="root.project({name: all.link})">{{all.title}}
+            </a>
+        </header> -->
+
+        <header class="media-heading">{{all.title}}
+
+        </header>
+
+        Created using:
+        <span class= "createdwith">{{all.tools }}
+        </span>
+        <div class= "blurb">{{all.blurb }}
+        </div>
+        <span class="link">
+          <a href= "{{all.github}}"><i class="fa fa-github-alt fa-2x" class= "github" aria-hidden="true"> </i>
+          </a>
+        </span>
+        <span class="link">
+          <a href= "{{all.deployed}}"><i class="fa fa-link fa-2x" class= "link" aria-hidden="true"> </i>
+          </a>
+        </span>
+      </div>
+  </div>
+
+  <div id="resume">
+    <div class="row">
+        <div class="resume-title col-xs-8 col-sm-4">
+            SKILLS
+        </div>
+          <div class="col-xs-8 col-sm-8">
+            HTML5/CSS3, Git, JavaScript, jQuery, AngularJS
+          </div>
+        </div>
+    <!-- Experience      -->
+    <div class="row">
+      <div class="resume-title col-xs-8 col-sm-4">
+        EXPERIENCE
+      </div>
+      <div class="col-xs-8 col-sm-8">
+        <div class="work-list"><span class="work-place">The Iron Yard | Atlanta, GA</span>	<span class="date">September 2016 – December 2016</span>
+        </div>
+          <div class="position">Front-End Engineering Student/Developer</div>
+            <ul id= "education">
+              <li>        The Iron Yard is a 12-week coding bootcamp specializing in highly focused, immersive training centered on language fluency, object-oriented programming, and project-based learning.
+
+              </li>
+            </ul>
+
+        <div class="work-list"><span class="work-place">Effron Sharma Immigration, LLC | Norcross, Georgia</span>	<span class="date">May 2016-July 2016</span>
+        </div>
+        <div class="position">Law Clerk</div>
+        <ul>
+          <li>   Wrote persuasive briefs on behalf of clients to the United States Citizens and Immigration Services (USCIS) to adjust immigration status
+          </li>
+          <li>    Received sensitive information from and on behalf of clients to best serve their needs
+          </li>
+          <li>    Conducted extensive immigration law research on behalf of clients
+          </li>
+          <li>    Maintained positive client relationships by being available, prepared, and respectful of individual circumstances
+
+          </li>
+        </ul>
+        <div class="work-list"><span class="work-place">Early Autism Project | Augusta, Georgia</span>	<span class="date">February 2015-December 2015</span>
+          </div>
+        <div class="position">Line Therapist</div>
+        <ul>
+          <li>   Provided ABA therapy to children on or at risk of being on the Autism spectrum in clinic and at home
+          </li>
+          <li>    Assisted guardians develop skills to better acclimate their children to the world around them
+          </li>
+          <li>   Developed therapy plans and coordinated with other care providers to find what works best for children
+          </li>
+
+        </ul>
+
+
+      </div>
+    </div>
+    <!-- Education  -->
+    <div class="row">
+      <div class="resume-title col-xs-8 col-sm-4">
+        EDUCATION
+      </div>
+      <div class="col-xs-8 col-sm-8 work-list">
+      <span>The University of Georgia | Athens, GA</span>	<span>August 2010–August 2014</span>
+      </div>
+    </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="contact"></div>
+  <div id="in-touch" >Get in touch with me. </div>
+
+  <div id="contact-snehel">
+    <a href= "https://github.com/snehelpatel/"><i class="fa fa-github-alt fa-4x" class= "github" aria-hidden="true"> </i>
+    </a>
+    <a href= "mailto:snehelpatel92@gmail.com"><i class="fa fa-envelope fa-4x" id= "email" aria-hidden="true"></i>
+    </a>
+    <a href= "https://www.linkedin.com/in/snehel-patel-650b738a"><i class="fa fa-linkedin fa-4x" id= "linkedin" aria-hidden="true"></i>
+    </a>
+    <a href= "https://twitter.com/SnehelPatel"><i class="fa fa-twitter fa-4x" aria-hidden="true" id= "twitter"></i>
+    </a>
+  </div>
+
+  <div class= "hidden" class= "github">https://github.com/snehelpatel</div>
+  <div class= "hidden" class= "email">mailto:snehelpatel92@gmail.com</div>
+  <div class= "hidden" class= "linkedin">https://www.linkedin.com/in/snehel-patel</div>
+  <div class= "hidden" class= "twitter">https://twitter.com/SnehelPatel</div>

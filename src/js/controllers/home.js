@@ -1,37 +1,25 @@
-function HomeController (allProjects) {
+function HomeController ($location, $anchorScroll, allProjects) {
 
 let vm = this;
-
 vm.all = allProjects;
+vm.images = [];
+console.log('are you there?')
+
+vm.scrollTo = scrollTo;
+console.log(vm.scrollTo)
+
+function scrollTo(scrollLocation){
+    console.log('are you in here?')
+    $location.hash(scrollLocation);
+      $anchorScroll();
+    };
 
 
 
-
-
-
-console.log (vm.all)
-
-
-
-
-
-
-
-
-// vm.template = [];
-//
-//
-//   vm.loadMore = function() {
-//     var last = vm.template[vm.templates.length - 1];
-//     for(var i = 1; i <= 8; i++) {
-//       vm.template.push(last + i);
-//     }
-//   };
-
+vm.images = vm.all.map(function(item){
+  return item.images
+    });
+console.log(vm.images)
 }
-
-
-
-
-
+HomeController.$inject = ['$location', '$anchorScroll', 'allProjects']
 export { HomeController };
