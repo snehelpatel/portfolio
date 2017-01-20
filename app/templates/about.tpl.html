@@ -32,7 +32,7 @@
   <div class="outer box">
     <h2 class=" box title is-2">PROJECTS</h2>
     </div>
-    <div class="media" ng-repeat= "all in home.all">
+    <div class="media box" ng-repeat= "all in home.all">
       <div class="media-left media-middle">
         <img class= "media-object" src="{{all.thumb}}">
       </div>
@@ -42,14 +42,14 @@
             </a>
         </header> -->
 
-        <header class="media-heading">{{all.title}}
+        <header class="media-heading box">{{all.title}}
 
         </header>
 
         Created using:
         <span class= "createdwith">{{all.tools }}
         </span>
-        <div class= "blurb">{{all.blurb }}
+        <div class= "blurb box">{{all.blurb }}
         </div>
         <span class="link">
           <a href= "{{all.github}}"><i class="fa fa-github-alt fa-2x" class= "github" aria-hidden="true"> </i>
@@ -61,7 +61,7 @@
         </span>
       </div>
   </div>
-
+</div>
 <div id= "resume">
   <div class="outer box">
       <h2 class=" box title is-2">RESUME</h2>
@@ -134,23 +134,22 @@
 
 
 
-
-<div id="contact-wrapper">
-    <div id="contact"></div>
-      <div class="outer box">
+<div id="contact"></div>
+  <div id="contact-wrapper">
+    <div class="outer box">
       <h2 class=" box title is-2">CONTACT</h2>
     </div>
 
   <div id="in-touch" >Get in touch with me. </div>
 
-    <div id="contact-snehel">
-      <a href= "https://github.com/snehelpatel/"><i class="fa fa-github-alt fa-4x" class= "github" aria-hidden="true"> </i>
+    <div id="contact-snehel" class=" outer box">
+      <a href= "https://github.com/snehelpatel/"><i class="box fa fa-github-alt fa-4x" class= "github" aria-hidden="true"> </i>
       </a>
-      <a href= "mailto:snehelpatel92@gmail.com"><i class="fa fa-envelope fa-4x" id= "email" aria-hidden="true"></i>
+      <a href= "mailto:snehelpatel92@gmail.com"><i class="box fa fa-envelope fa-4x" id= "email" aria-hidden="true"></i>
       </a>
-      <a href= "https://www.linkedin.com/in/snehel-patel-650b738a"><i class="fa fa-linkedin fa-4x" id= "linkedin" aria-hidden="true"></i>
+      <a href= "https://www.linkedin.com/in/snehel-patel-650b738a"><i class=" box fa fa-linkedin fa-4x" id= "linkedin" aria-hidden="true"></i>
       </a>
-      <a href= "https://twitter.com/SnehelPatel"><i class="fa fa-twitter fa-4x" aria-hidden="true" id= "twitter"></i>
+      <a href= "https://twitter.com/SnehelPatel"><i class="box fa fa-twitter fa-4x" aria-hidden="true" id= "twitter"></i>
       </a>
     </div>
 </div>
