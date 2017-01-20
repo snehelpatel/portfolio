@@ -1,6 +1,7 @@
+<div id="nav-wrapper">
 <nav>
   <span class="nav-top-left">
-      <a ui-sref="root.projects">SNEHEL PATEL</a>
+      <a ui-sref="root.about">SNEHEL PATEL</a>
   </span>
 
   <!-- <span class="nav-right">
@@ -10,16 +11,17 @@
       <a ui-sref="root.contact">CONTACT</a>
   </span> -->
 
-  <nav>
+
     <span class="nav-right">
-        <a ng-click="home.scrollTo('about')">ABOUT</a>
+        <a ng-click="home.scrollTo('about-me')">ABOUT</a>
         <a  ng-click="home.scrollTo('projects')">PROJECTS</a>
         <!-- <a href="#!/#projects">PROJECTS</a> -->
         <a ng-click="home.scrollTo('resume')">RESUME</a>
         <a ng-click="home.scrollTo('contact')">CONTACT</a>
     </span>
-  </nav>
+
 </nav>
+</div>
 
 <div class="container" ui-view>
   </div>

@@ -8,27 +8,12 @@ function routerConfig ($stateProvider, $urlRouterProvider, $qProvider) {
   .state('root.about', {
     url: '/',
     templateUrl: 'templates/about.tpl.html',
-    controller: 'AboutController as about'
+    
   })
-  // .state('root.resume', {
-  //   url: '/resume',
-  //   templateUrl: 'templates/resume.tpl.html',
-  //   // controller: 'ResumeController as resume'
-  // })
-  // .state('root.projects', {
-  //   url: '/projects',
-  //   templateUrl: 'templates/projects.tpl.html',
-  //   controller: 'ProjectsController as projects'
-  // })
   // .state('root.project', {
   //   url: '/projects/:name',
   //   templateUrl: 'templates/single.tpl.html',
   //   controller: 'SingleController as single'
-  // })
-  // .state('root.contact', {
-  //   url: '/contact',
-  //   templateUrl: 'templates/contact.tpl.html',
-  //   controller: 'ContactController as contact'
   // })
   $urlRouterProvider.otherwise('/');
   $qProvider.errorOnUnhandledRejections(false);
