@@ -3,7 +3,7 @@
 Created using:
 
 * AngularJS
-* bootstrap
+* Bootstrap
 * Bulma
 
 [Portfolio](http://snehel.surge.sh)
