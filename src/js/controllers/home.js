@@ -11,7 +11,7 @@ console.log(vm.scrollTo)
 function scrollTo(scrollLocation){
     console.log('are you in here?')
     $location.hash(scrollLocation);
-      $anchorScroll.yOffset = 80;
+      $anchorScroll.yOffset = 90;
       $anchorScroll();
 
     };

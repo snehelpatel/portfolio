@@ -24,7 +24,7 @@
   z-index: 1;
   background-color: #F5F5F5;
   width:100%;
-  height: 80px;
+  height: 90px;
   margin-bottom:10px;
 }
 
@@ -68,7 +68,6 @@ nav {
 }
 
 //about
-
 
 #contact-about{
   display: flex;
@@ -119,7 +118,7 @@ margin-bottom: 0px;
 }
 
 #about-me {
-  height:84px;
+  height:140px;
 }
 
 #contact-snehel {
@@ -150,8 +149,8 @@ margin-bottom: 0px;
 
 .outer {
 width: 1000px;
-// height: 120px;
-margin:auto;
+margin-left:auto;
+margin-right: auto;
 
   h2{color: #BFDBE8;
     text-align: center;
@@ -160,6 +159,7 @@ margin:auto;
 }
 
 #resume {
+  height:50px;
   font-size: 20px;
   padding: 0px 0px 25px 0px;
 }
