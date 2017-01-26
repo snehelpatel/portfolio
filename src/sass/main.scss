@@ -49,7 +49,8 @@ nav {
       }
         a:hover, a:focus {
           text-decoration: none;
-          color: #BFDBE8;
+          background-color: white;
+          color: #5C81B5;
           padding: 15px;
         }
     }
@@ -58,12 +59,13 @@ nav {
       font-size: 33px;
         a:hover {
           text-decoration: none;
-          color:#BFDBE8;
+          color:#5C81B5;
         }
         a:focus {
          text-decoration: none;
          color:black;
-       }
+      }
+
     }
 }
 
@@ -87,7 +89,7 @@ height: 555px;
 margin:auto;
 margin-bottom: 0px;
 
-  h2{color: #BFDBE8;
+  h2{color: #5C81B5;
     text-align: center;
     font-weight: normal;
   }
@@ -152,7 +154,7 @@ width: 1000px;
 margin-left:auto;
 margin-right: auto;
 
-  h2{color: #BFDBE8;
+  h2{color: #5C81B5;
     text-align: center;
     font-weight: normal;
   }
@@ -171,7 +173,7 @@ margin-right: auto;
 margin:auto;
 
   .resume-title{
-    color: #BFDBE8;
+    color: #5C81B5;
     font-weight: 600;
     margin: 0 0 20px 0;
     border-bottom: 1px solid #C5C4C3;
